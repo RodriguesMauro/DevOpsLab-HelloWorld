@@ -20,7 +20,9 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: 140356e8-dbb5-4ffb-a34f-c9aefe09d4dc
+    secure: 140356e8-dbb5-4ffb-a34f-c9aefe09d4dc --pro
   app: rodriguesmaurodevops
+  
+#  travis encrypt $ (heroku auth: token) - adicionar deploy.api_key --pro
   
   
