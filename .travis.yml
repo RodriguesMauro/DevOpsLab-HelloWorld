@@ -20,7 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $HEROKU_API_KEY
+    secure: 140356e8-dbb5-4ffb-a34f-c9aefe09d4dc
   app: rodriguesmaurodevops
   
   
